@@ -437,6 +437,57 @@ a:hover, a:active {
 /*--------------------------------------------------------------
 ## Menus
 --------------------------------------------------------------*/
+
+/**
+* Header Styles */
+
+.header {
+    background-color: darkblue;
+    padding: 2em;
+}
+
+.menu-main-navigation-container {
+    display: inline-block;
+    float: right;
+    padding-bottom: 20px;
+    padding-top: 30px;
+}
+
+.menu-item {
+    padding-left: 10px;
+    padding-right: 30px;
+}
+
+.logo {
+    width: 200px;
+    margin-left: 2em;
+}
+
+.main-navigation {
+    float: right;
+    margin-top: 1em;
+}
+
+    .main-navigation li {
+        list-style-type: none;
+        float: left;
+        margin-right: 1.5em;
+    }
+
+    .main-navigation a {
+        color: #a5a5a5;
+        text-decoration: none;
+        text-transform: uppercase;
+        letter-spacing: .1em;
+        display: block;
+        padding: 0 1em;
+        transition: .5s all;
+    }
+
+        .main-navigation a:hover {
+            color: #00b8b8;
+        }
+
 .main-navigation {
 	border-bottom: 1px solid #eee;
 	clear: both;
